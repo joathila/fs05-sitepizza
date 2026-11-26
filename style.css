@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+main {
+
+    .section-site {
+        background-image: url(back.png);
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+
+        flex-direction: column;
+
+        .text {
+            color: white;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin: 100px;
+
+            h1 {
+                padding: 20px;
+            }
+
+            h3 {
+                padding: 20px;
+            }
+
+            .botton {
+                padding: 30px;
+
+                a{
+                    color: white;
+                    background-color: #006341;
+                    font-size: 2em;
+                    padding: 10px;
+                    border-radius: 20px;
+                    text-decoration: none;
+                }
+            }
+
+        }
+           
+        
+        .container {
+            display: flex;
+            justify-content: space-between;
+        
+            background-color: #006341;
+            padding: 8px;
+            align-items: center;
+            
+        .image-logo {
+            width: 100%;
+            height: 100%;
+
+            }
+        
+           .image-logo img {
+            width: 160px;
+            height: auto;
+                
+            }
+ 
+        nav {
+
+            /*dá pra posicionar o menu, independente da logo*/
+            position: absolute;
+            left: 50%;
+
+            /*transform: translateX(-50%): desloca o menu pela metade da própria largura, deixando-o perfeitamente centralizado.*/
+            transform: translateX(-50%);
+            
+
+            ul {
+                display: flex;
+                list-style: none;
+                gap: 40px;
+
+                
+              
+            }
+    
+            ul li a {
+                color: white;
+                text-decoration: none;
+                font-size: 25px;
+                display: flex; 
+                
+            }
+        }  
+        
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2em;
+            
+            
+            a {
+                color: white;
+                justify-content: center;
+                align-items: center;
+                padding: 10px;
+                background-color: #B7312C;
+                border-radius: 20px;
+                display: flex;
+                margin-right: 25px;
+                text-decoration: none;
+                
+
+            }
+        }
+    }
+}
+
+    .section-site2 {
+        width: 100%;
+        height: 100vh;
+        background-color:#006341;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        position: relative;
+
+        .container {
+
+            position: relative;
+            z-index: 10;
+            text-align: center;
+            color: white;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+
+            .title {
+                display: flex;
+                align-items: center;
+                text-align: center;
+                justify-content: center;
+                flex-direction: column;
+                width: 100%;
+                margin: 10px;
+                
+
+                .tabela {
+                    display: flex;
+                
+
+                    table {
+                        padding: 5px;
+                        margin: 10px;
+                        font-size: 1.2em;
+                        
+
+                        th {
+                            padding: 10px;
+                        }
+                      
+                    }
+
+
+                }
+    
+                h1 {
+                    color: white;
+                    font-size: 2.5em;
+                    background-color: #B7312C;
+                    padding: 8px;
+                    border-radius: 20px;
+                    margin: 30px;
+                }
+    
+                h3 {
+                    color: white;
+                    
+                }
+            }
+        }
+
+        .image-fundo {
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            
+            position: absolute;
+
+                img {
+                    width: 30%;
+                    align-items: center;
+                    justify-content: center;
+                    opacity: 0.2;
+                    margin-top: 110px;
+                    
+                }
+
+        }
+        
+    }
+}
